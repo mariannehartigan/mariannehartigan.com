@@ -25,5 +25,3 @@ key: ${{secrets.SSH_KEY}}
 
 username: ${{secrets.SSH_USERNAME}}
 
-
-echo 'Deployment Successful to Digital Ocean'
