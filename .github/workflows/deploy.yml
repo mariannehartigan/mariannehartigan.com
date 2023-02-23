@@ -25,8 +25,5 @@ key: ${{secrets.SSH_KEY}}
 
 username: ${{secrets.SSH_USERNAME}}
 
-script: |
 
-
-git clone git@github.com:mariannehartigan/mariannehartigan.com.git
 echo 'Deployment Successful to Digital Ocean'
