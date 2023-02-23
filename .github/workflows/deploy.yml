@@ -27,7 +27,6 @@ username: ${{secrets.SSH_USERNAME}}
 
 script: |
 
-mkdir test
-cd test
+
 git clone git@github.com:mariannehartigan/mariannehartigan.com.git
 echo 'Deployment Successful to Digital Ocean'
